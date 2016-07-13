@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="name" />
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="value"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="name" />
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="value"/>
+
+                    <android.support.v7.widget.ScrollingTabContainerView.TabView
+                        android:textAlignment="center"
+                        android:weightSum="1"
+                        android:id="@+id/tabview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="8">
+                        <android.support.v4.view.ViewPager
+                            android:layout_width ="match_parent"
+                            android:layout_height="wrap_content"></android.support.v4.view.ViewPager>
+
+
+
+                    </android.support.v7.widget.ScrollingTabContainerView.TabView>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_circle_black_48dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

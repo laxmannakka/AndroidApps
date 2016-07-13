@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "321184010054",
+    "firebase_url": "https://myapplicationfirebase.firebaseio.com",
+    "project_id": "myapplicationfirebase",
+    "storage_bucket": "myapplicationfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321184010054:android:4bee6052a5620126",
+        "android_client_info": {
+          "package_name": "com.bridgelabz.myapplicationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321184010054-vigto22jdj2d9i9a71o6vlc15f6fvdc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bridgelabz.myapplicationfirebase",
+            "certificate_hash": "58BD5FFB493EC35005BF157C2B744D3D1522DE70"
+          }
+        },
+        {
+          "client_id": "321184010054-lhdtcv5nc555k6ho8sbm7s6on3rk139d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYR-RykxVBRQZE0HW08hYkSfBIBM6S0aw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321184010054-lhdtcv5nc555k6ho8sbm7s6on3rk139d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

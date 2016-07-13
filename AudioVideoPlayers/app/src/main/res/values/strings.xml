@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AudioVideoPlayers</string>
+    <string name="title_activity_recorder_voice">RecorderVoice</string>
+</resources>

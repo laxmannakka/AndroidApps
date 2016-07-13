@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+
+
+
+        <TextView
+            android:id="@+id/nametextview"
+            android:text="Name :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+
+            <TextView
+                android:id="@+id/setnameTextview"
+                android:layout_toRightOf="@+id/nametextview"
+                android:hint="name is"
+                android:layout_weight="1"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        <TextView
+            android:id="@+id/playrole"
+            android:layout_marginTop="5dp"
+            android:text="Role:"
+            android:layout_below="@+id/nametextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/setplayrole"
+            android:hint="Role is"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/playrole"
+            android:layout_toRightOf="@+id/nametextview"
+            android:layout_toEndOf="@+id/nametextview" />
+        <TextView
+            android:id="@+id/batstyle"
+            android:text="Bat-Style:"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/playrole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/setbattingstyle"
+            android:hint="batting style"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/setplayrole"
+            android:layout_toRightOf="@+id/batstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Bowl-Style:"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/batstyle"
+            android:id="@+id/bolingstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/setbowl"
+            android:hint="bowlstyle is"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/setbattingstyle"
+            android:layout_toRightOf="@+id/bolingstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:src="@drawable/images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp" />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#703456"/>
+
+
+</LinearLayout>

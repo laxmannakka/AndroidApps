@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02ff5f"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images" />
+
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tablelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="20dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/nameofplayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/setname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Name is"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:textColorHint="@color/colorAccent" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/setrole"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Role is"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:textColorHint="@color/colorAccent" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/battingstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bat-Style"
+                    android:textAppearance="?android:textAppearanceLargeInverse" />
+
+                <TextView
+                    android:id="@+id/setbarstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Bat-Style"
+                    android:textAppearance="?android:textAppearanceLargeInverse" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Role"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Role"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:textColorHint="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Bowlstyle"
+                    android:text="Bowl-Style"
+                    android:textColorHint="@color/colorAccent"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                            android:layout_weight="1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setbowlstyle"
+                    android:hint="bowl syle is"
+                    android:layout_weight="1" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nationality"
+                    android:text="Nationality"
+                    android:textColorHint="@color/colorAccent"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setnationality"
+                    android:hint="Nationality is"
+                    android:layout_weight="1" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dob"
+                    android:text="Dob"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setdob"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="dob is"
+                    android:textAppearance="?android:textAppearanceLargeInverse"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+</RelativeLayout>
+</LinearLayout>

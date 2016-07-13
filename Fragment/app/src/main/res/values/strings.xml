@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    
+    <string-array name="android_versions">
+        <item>cupcaker</item>
+        <item>lolyypop</item>
+        <item>gellybin</item>
+        <item>laxman</item>
+
+    </string-array>
+
+</resources>

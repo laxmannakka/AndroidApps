@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007FFF"
+    android:layout_marginBottom="50dp">
+
+   <TextView
+       android:textAppearance="?android:textAppearanceLarge"
+       android:id="@+id/thistext"
+       android:text="Name"
+       android:layout_width="100dp"
+       android:layout_height="50dp"/>
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_toRightOf="@+id/thistext"
+        android:id="@+id/thistext1"
+        android:hint="Name is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/thistext"
+            android:text="id"
+            android:id="@+id/thistext2"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/id"
+        android:layout_toRightOf="@+id/thistext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="id is"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@+id/thistext" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_below="@+id/thistext2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Mbl NUmber"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_toRightOf="@+id/number"
+        android:id="@+id/num"
+        android:hint="Nmber is"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/thistext1"
+        android:layout_alignEnd="@+id/thistext1"
+
+        android:layout_below="@+id/thistext2"
+        />
+
+</RelativeLayout>

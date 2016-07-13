@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Linearlayout Demo2</string>
+    <string name="button_send">fgfgfgfgf</string>
+    <string name="edittext">Entername</string>
+
+    <string-array name="Country">
+        <item>india</item>
+        <item>afganistan</item>
+        <item>pakistan</item>
+        <item>bangladesh</item>
+        <item> australia</item>
+        <item> srilanka</item>
+    </string-array>
+
+
+
+</resources>

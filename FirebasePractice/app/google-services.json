@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3136531188",
+    "firebase_url": "https://fir-practice-eba5d.firebaseio.com",
+    "project_id": "fir-practice-eba5d",
+    "storage_bucket": "fir-practice-eba5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3136531188:android:16db7c4a594d9d45",
+        "android_client_info": {
+          "package_name": "com.bridgelabz.firebasepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3136531188-fif5tp0uhufte6240b1ua21po699csvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bridgelabz.firebasepractice",
+            "certificate_hash": "58BD5FFB493EC35005BF157C2B744D3D1522DE70"
+          }
+        },
+        {
+          "client_id": "3136531188-9bige831vss7kdbkqpbumcnv8ogrqq9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI2BmDEpSQuxyP0LN5cGcx_rFnfGeTLgk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3136531188-9bige831vss7kdbkqpbumcnv8ogrqq9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

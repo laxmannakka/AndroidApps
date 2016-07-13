@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bridgelabz.ipl.MainActivity"
+    android:orientation="vertical">
+
+
+    <TableLayout
+    android:id="@+id/tableLayout"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+    <TableRow>
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:id="@+id/home"
+            android:text="Home"
+            android:layout_weight="1"/>
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:textColor="#ffffff"
+
+            android:text="listofTeams"
+            android:layout_weight="1"
+            />
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:textColor="#ffffff"
+
+            android:text="franchiselist"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+</TableLayout>
+
+
+    <ImageView
+    android:id="@+id/image"
+    android:src="@drawable/ipl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+<GridView
+    android:id="@+id/gridview"
+    android:layout_marginLeft="20dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="@dimen/activity_horizontal_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</GridView>
+
+
+
+</LinearLayout>

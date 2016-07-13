@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <variable
+            name="user"
+            type="com.bridgelabz.databindingpractice2.UserModel"/>
+    </data>
+    <LinearLayout
+        android:background="#404844"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:hint="name is"
+        android:text="@{user.firstname}"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@{user.lastname}"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+        />
+        <ImageView
+            android:src="@drawable/images"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            imageResource="@{user.imageResource}"/>
+    </LinearLayout>
+</layout>
